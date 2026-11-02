@@ -1,6 +1,6 @@
 ---
 plan: morning-digest
-status: ready
+status: done
 owner: rook
 opened: 2026-10-29
 ---
@@ -77,3 +77,23 @@ page again with `LANE_MARKER` unset (the banner reads "no marker set") and uploa
 link. Move this plan to `docs/plans/done/` with its issue list.
 
 Done when: the preview link no longer shows the lane marker.
+
+## Issues
+
+All issues use the label `plan:morning-digest`.
+
+- [#1 · Digest types and reader contract](https://github.com/kacper-kubicki-allegro/rig-morning-digest/issues/1)
+- [#2 · Run log reader and aggregation tests](https://github.com/kacper-kubicki-allegro/rig-morning-digest/issues/2)
+- [#3 · Digest page: GET /digest/:night](https://github.com/kacper-kubicki-allegro/rig-morning-digest/issues/3)
+- [#4 · Digest JSON: GET /api/digest/:night](https://github.com/kacper-kubicki-allegro/rig-morning-digest/issues/4)
+- [#5 · Status board: night digest links and counts](https://github.com/kacper-kubicki-allegro/rig-morning-digest/issues/5)
+- [#6 · Digest route tests with temporary run fixtures](https://github.com/kacper-kubicki-allegro/rig-morning-digest/issues/6)
+- [#7 · Publish HTML digest preview for review](https://github.com/kacper-kubicki-allegro/rig-morning-digest/issues/7)
+- [#8 · Clean up preview after review and archive plan](https://github.com/kacper-kubicki-allegro/rig-morning-digest/issues/8)
+
+## Completion record
+
+Review received: the course reviewer explicitly saw the preview. The human explicitly approved
+replacing the public page without its lane marker. The parent regenerated the page and replaced
+the stable preview at https://rig-morning-digest-kacper.netlify.app/; an anonymous fetch confirmed
+the banner reads "no marker set". The stable preview is cleaned, and this plan is archived as done.
